@@ -1,0 +1,1 @@
+This Project need to be build with MSVC and Universal WIndows Platform Devlopment :> Good luck
