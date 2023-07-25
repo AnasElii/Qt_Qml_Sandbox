@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Debug",
+            "request": "launch",
+            "type": "cppdbg",
+            "linux": {
+                "type": "cppdbg"
+            },
+            "windows": {
+                "type": "cppvsdbg"
+            },
+            "cwd": "${workspaceFolder}",
+            "program": "${command:cmake.launchTargetPath}",
+            "args": [
+                "-qmljsdebugger=host:localhost,port:12150,services:DebugMessages,QmlDebugger,V8Debugger"
+            ],
+            "visualizerFile": "c:\\Users\\Aninoss\\AppData\\Roaming\\Code\\User\\workspaceStorage\\b27b6f1bc3ef7719a120ed6b2023d0ce\\tonka3000.qtvsctools\\qt.natvis.xml"
+        }
+    ]
+}
